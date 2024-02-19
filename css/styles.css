@@ -272,7 +272,7 @@ row-gap: 48px;
 }
 
 .our-portfolio-card {
-width: calc((100%-48px)/3);  
+width: calc((100% - 48px) / 3);  
 }
 
 
