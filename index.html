@@ -22,203 +22,231 @@
 
   <body>
     <!-- Page Header -->
-    <header>
-      <nav>
-        <a class="logo" href=" ./index.html">
-          WEB<span class="logo-part">Studio</span>
-        </a>
-        <ul>
-          <li><a class="nav-link" href="./index.html">Studio</a></li>
-          <li><a class="nav-link" href="">Portfolio</a></li>
-          <li><a class="nav-link" href="">Contacts</a></li>
-        </ul>
-      </nav>
+    <header class="header">
+      <div class="container">
+        <nav class="nav-page">
+          <a class="logo" href=" ./index.html">
+            WEB<span class="logo-part">Studio</span>
+          </a>
+          <ul class="nav-list">
+            <li><a class="nav-link" href="./index.html">Studio</a></li>
+            <li><a class="nav-link" href="">Portfolio</a></li>
+            <li><a class="nav-link" href="">Contacts</a></li>
+          </ul>
+        </nav>
 
-      <address class="address">
-        <ul>
-          <li>
-            <a class="address-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="address-link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+        <address class="address">
+          <ul class="address-page">
+            <li>
+              <a class="address-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="address-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
     <main>
       <!-- Hero section -->
       <section class="hero-section">
-        <h1 class="hero-section-title">
-          Effective Solutions for Your Business
-        </h1>
-        <button class="hero-section-button" type="button">Order Service</button>
+        <div class="container">
+          <h1 class="hero-section-title">
+            Effective Solutions for Your Business
+          </h1>
+          <button class="hero-section-button" type="button">
+            Order Service
+          </button>
+        </div>
       </section>
 
       <!-- Our advantages -->
-      <section>
-        <h2 hidden>Our advantages</h2>
-        <ul>
-          <li>
-            <h3 class="our-advantages">Strategy</h3>
-            <p class="our-advantages-text">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
+      <section class="page-our-advantages">
+        <div class="container">
+          <h2 hidden>Our advantages</h2>
+          <ul class="our-advantages-item">
+            <li class="our-advantages-list">
+              <h3 class="our-advantages">Strategy</h3>
+              <p class="our-advantages-text">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
 
-          <li>
-            <h3 class="our-advantages">Punctuality</h3>
-            <p class="our-advantages-text">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
+            <li class="our-advantages-list">
+              <h3 class="our-advantages">Punctuality</h3>
+              <p class="our-advantages-text">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
 
-          <li>
-            <h3 class="our-advantages">Diligence</h3>
-            <p class="our-advantages-text">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
+            <li class="our-advantages-list">
+              <h3 class="our-advantages">Diligence</h3>
+              <p class="our-advantages-text">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
 
-          <li>
-            <h3 class="our-advantages">Technologies</h3>
-            <p class="our-advantages-text">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+            <li class="our-advantages-list">
+              <h3 class="our-advantages">Technologies</h3>
+              <p class="our-advantages-text">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- Our team -->
       <section class="our-team">
-        <h2 class="our-team-title">Our Team</h2>
-        <ul>
-          <li class="our-team-list">
-            <img
-              src="./images/mark.jpg"
-              alt="Portrait of Mark Guerrero "
-              width="264"
-            />
-            <h3 class="our-team-name">Mark Guerrero</h3>
-            <p class="our-team-role">Product Designer</p>
-          </li>
+        <div class="container">
+          <h2 class="our-team-title">Our Team</h2>
+          <ul class="page-our-team">
+            <li class="our-team-item">
+              <img
+                src="./images/mark.jpg"
+                alt="Portrait of Mark Guerrero "
+                width="264"
+              />
 
-          <li class="our-team-list">
-            <img
-              src="./images/tom.jpg"
-              alt="Portrait of Tom Ford "
-              width="264"
-            />
-            <h3 class="our-team-name">Tom Ford</h3>
-            <p class="our-team-role">Frontend Developer</p>
-          </li>
+              <div class="team-container-item">
+                <h3 class="our-team-name">Mark Guerrero</h3>
+                <p class="our-team-role">Product Designer</p>
+              </div>
+            </li>
 
-          <li class="our-team-list">
-            <img
-              src="./images/camila.jpg"
-              alt="Portrait of Camila Garcia "
-              width="264"
-            />
-            <h3 class="our-team-name">Camila Garcia</h3>
-            <p class="our-team-role">Marketing</p>
-          </li>
+            <li class="our-team-item">
+              <img
+                src="./images/tom.jpg"
+                alt="Portrait of Tom Ford "
+                width="264"
+              />
 
-          <li class="our-team-list">
-            <img
-              src="./images/daniel.jpg"
-              alt="Portrait of Daniel Wilson "
-              width="264"
-            />
-            <h3 class="our-team-name">Daniel Wilson</h3>
-            <p class="our-team-role">UI Designer</p>
-          </li>
-        </ul>
+              <div class="team-container-item">
+                <h3 class="our-team-name">Tom Ford</h3>
+                <p class="our-team-role">Frontend Developer</p>
+              </div>
+            </li>
+
+            <li class="our-team-item">
+              <img
+                src="./images/camila.jpg"
+                alt="Portrait of Camila Garcia "
+                width="264"
+              />
+
+              <div class="team-container-item">
+                <h3 class="our-team-name">Camila Garcia</h3>
+                <p class="our-team-role">Marketing</p>
+              </div>
+            </li>
+
+            <li class="our-team-item">
+              <img
+                src="./images/daniel.jpg"
+                alt="Portrait of Daniel Wilson "
+                width="264"
+              />
+
+              <div class="team-container-item">
+                <h3 class="our-team-name">Daniel Wilson</h3>
+                <p class="our-team-role">UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- Our portfolio -->
-      <section>
-        <h2 class="our-portfolio">Our Portfolio</h2>
-        <ul>
-          <li>
-            <img
-              src="./images/banking.jpg"
-              alt="Галерея сторінок застосунку Banking App"
-              width="360"
-            />
-            <h3 class="our-portfolio-title">Banking App</h3>
-            <p class="our-portfolio-list">App</p>
-          </li>
+      <section class="our-portfolio-section">
+        <div class="container">
+          <h2 class="our-portfolio">Our Portfolio</h2>
+          <ul class="page-portfolio">
+            <li class="our-portfolio-card">
+              <img
+                src="./images/banking.jpg"
+                alt="Галерея сторінок застосунку Banking App"
+                width="360"
+              />
+              <h3 class="our-portfolio-title">Banking App</h3>
+              <p class="our-portfolio-list">App</p>
+            </li>
 
-          <li>
-            <img
-              src="./images/cashless.jpg"
-              alt="Сканування за допомогою телефону"
-              width="360"
-            />
-            <h3 class="our-portfolio-title">Cashless Payment</h3>
-            <p class="our-portfolio-list">Marketing</p>
-          </li>
+            <li class="our-portfolio-card">
+              <img
+                src="./images/cashless.jpg"
+                alt="Сканування за допомогою телефону"
+                width="360"
+              />
+              <h3 class="our-portfolio-title">Cashless Payment</h3>
+              <p class="our-portfolio-list">Marketing</p>
+            </li>
 
-          <li>
-            <img
-              src="./images/meditation.jpg"
-              alt="Монітор ноутбуку поруч телефон"
-              width="360"
-            />
-            <h3 class="our-portfolio-title">Meditation App</h3>
-            <p class="our-portfolio-list">App</p>
-          </li>
+            <li class="our-portfolio-card">
+              <img
+                src="./images/meditation.jpg"
+                alt="Монітор ноутбуку поруч телефон"
+                width="360"
+              />
+              <h3 class="our-portfolio-title">Meditation App</h3>
+              <p class="our-portfolio-list">App</p>
+            </li>
 
-          <li>
-            <img
-              src="./images/taxi.jpg"
-              alt="Фото місця водія за кермом поруч телефон"
-              width="360"
-            />
-            <h3 class="our-portfolio-title">Taxi Service</h3>
-            <p class="our-portfolio-list">Marketing</p>
-          </li>
+            <li class="our-portfolio-card">
+              <img
+                src="./images/taxi.jpg"
+                alt="Фото місця водія за кермом поруч телефон"
+                width="360"
+              />
+              <h3 class="our-portfolio-title">Taxi Service</h3>
+              <p class="our-portfolio-list">Marketing</p>
+            </li>
 
-          <li>
-            <img
-              src="./images/screen.jpg"
-              alt="Мобільний телефон яскрава картинка на екрані"
-              width="360"
-            />
-            <h3 class="our-portfolio-title">Screen Illustrations</h3>
-            <p class="our-portfolio-list">Design</p>
-          </li>
+            <li class="our-portfolio-card">
+              <img
+                src="./images/screen.jpg"
+                alt="Мобільний телефон яскрава картинка на екрані"
+                width="360"
+              />
+              <h3 class="our-portfolio-title">Screen Illustrations</h3>
+              <p class="our-portfolio-list">Design</p>
+            </li>
 
-          <li>
-            <img
-              src="./images/online.jpg"
-              alt="Фото жінки в помаранчевому светрі"
-              width="360"
-            />
-            <h3 class="our-portfolio-title">Online Courses</h3>
-            <p class="our-portfolio-list">Marketing</p>
-          </li>
-        </ul>
+            <li class="our-portfolio-card">
+              <img
+                src="./images/online.jpg"
+                alt="Фото жінки в помаранчевому светрі"
+                width="360"
+              />
+              <h3 class="our-portfolio-title">Online Courses</h3>
+              <p class="our-portfolio-list">Marketing</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <!-- Footer -->
-    <footer class="footer">
-      <a class="footer-logo" href=" ./index.html">
-        WEB<span class="footer-logo-part">Studio</span>
-      </a>
-      <p class="footer-text">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
-    </footer>
+    <section>
+      <div class="container">
+        <footer class="footer">
+          <a class="footer-logo" href=" ./index.html">
+            WEB<span class="footer-logo-part">Studio</span>
+          </a>
+          <p class="footer-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </footer>
+      </div>
+    </section>
   </body>
 </html>
